@@ -17,6 +17,10 @@ p,
 a {
   font-weight: 300;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .container {
   width: 960px;
   margin: 0 auto;
@@ -133,23 +137,26 @@ a {
   width: 200px;
   margin: 0 auto;
 }
-.contact {
+#contact {
   width: 100%;
   background: url('../img/contact-slide-background.png') no-repeat center #000000;
   margin: 0 auto;
 }
-.contact h2,
-.contact p {
+#contact h2,
+#contact p {
   color: white;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.85);
 }
-.contact h2 {
+#contact h2 {
   font-size: 40px;
   margin-bottom: 30px;
 }
-.contact p {
+#contact p {
   font-size: 20px;
   line-height: 30px;
+}
+#contact a:hover {
+  border-bottom: 2px dotted white;
 }
 .footer {
   padding: 30px 0;
