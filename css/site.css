@@ -153,7 +153,11 @@ a {
 }
 #contact p {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 40px;
+}
+#contact a {
+  font-weight: 400;
+  font-size: 24px;
 }
 #contact a:hover {
   border-bottom: 2px dotted white;
